@@ -1,0 +1,8 @@
+[package]
+name = "x86-instruction-set-analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced-x86 = "1.21.0"
+object = "0.35.0"
