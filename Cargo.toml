@@ -2,6 +2,15 @@
 name = "x86-instruction-set-analyzer"
 version = "0.1.0"
 edition = "2021"
+authors = ["Wish <breezewish@outlook.com>"]
+license = "MIT"
+description = "Analyze x86 instruction sets for a binary"
+readme = "README.md"
+homepage = "https://github.com/breezewish/x86-instruction-set-analyzer"
+repository = "https://github.com/breezewish/x86-instruction-set-analyzer"
+keywords = ["cli", "x86", "instruction-set"]
+categories = ["command-line-utilities"]
+publish = true
 
 [dependencies]
 iced-x86 = "1.21.0"
