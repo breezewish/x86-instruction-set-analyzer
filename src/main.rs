@@ -62,7 +62,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .collect::<Vec<_>>();
 
     println!();
-    println!("Instruction set usage:");
+    println!("Instruction set usage (total {}):", total_ins);
     ordered_iset_counter.sort_by(|a, b| b.1.cmp(&a.1));
     for (iset, count) in ordered_iset_counter.iter() {
         let iset_e = iced_x86::CpuidFeature::try_from(*iset).unwrap();
